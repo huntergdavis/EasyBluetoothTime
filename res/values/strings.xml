@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">EasyBluetoothTime</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_easy_bluetooth_time">EasyBluetoothTime</string>
+   <string-array name="actions_array">
+        <item>Next Track</item>
+        <item>Previous Track</item>
+        <item>Play/Action</item>
+    </string-array> 
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/intent_chooser_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose When To Read The Time"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/intent_chooser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14df6323a5f82f"
+        ads:loadAdOnCreate="false" />
+
+</LinearLayout>
